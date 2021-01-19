@@ -12,4 +12,10 @@ phases:
     commands:
       - echo Build started on `date`          
       - npm install
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
+  name: api-build-artifacts
+  discard-paths: no 
        
